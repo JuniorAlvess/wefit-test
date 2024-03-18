@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import { createContext, useContext, useState, useEffect } from 'react';
 import productService from '../services/api/productService';
 import IProduct, { IProductContextType, IProductProviderProps } from '../types/Product';
 
