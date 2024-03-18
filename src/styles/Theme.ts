@@ -4,6 +4,7 @@ export const theme = {
   colors: {
     white: '#FFFFFF',
     neutralGray: '#999999',
+    gray: '#333333',
     darkBlue: '#2F2E41',
     button: {
       textColor: '#FFFFFF',
@@ -20,6 +21,7 @@ export const theme = {
       small: '0.75rem',
       medium: '0.875rem',
       large: '1.25rem',
+      base: '1rem',
     },
   },
 };
