@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.li`
   background: ${({ theme }) => theme.colors.white};
-  width: clamp(19rem, 21vw, 21.16rem);
+  width: 338.67px;
 
   padding: 16px;
   border-radius: 4px;
