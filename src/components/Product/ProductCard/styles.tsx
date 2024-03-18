@@ -18,6 +18,7 @@ export const Container = styled.li`
   @media (max-width: 768px) {
     max-width: 400px;
     width: 100%;
+    gap: 8px;
   }
 `;
 
@@ -38,5 +39,5 @@ export const Title = styled.p`
 export const Price = styled.strong`
   color: ${({ theme }) => theme.colors.darkBlue};
   font-size: ${({ theme }) => theme.font.sizes.base};
-  font-weight: ${({ theme }) => theme.font.semiBold};
+  font-weight: ${({ theme }) => theme.font.extraBold};
 `;

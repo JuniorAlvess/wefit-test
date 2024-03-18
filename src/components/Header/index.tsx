@@ -17,7 +17,7 @@ function Header() {
       <S.ShoppingCartInfo>
         <S.ShoppingCartInfoGroup>
           {width > 768 && <S.ShoppingCartInfoText>Meu Carrinho</S.ShoppingCartInfoText>}
-          <S.ShoppingCartInfoText>{totalQuantity} itens</S.ShoppingCartInfoText>
+          <S.QuantityNumberShoppingCart>{totalQuantity} itens</S.QuantityNumberShoppingCart>
         </S.ShoppingCartInfoGroup>
         <button onClick={() => navigate('/checkout/cart')}>
           <ShoppingBasket />

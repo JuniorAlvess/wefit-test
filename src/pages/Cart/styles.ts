@@ -8,6 +8,10 @@ export const Container = styled.main`
 
   max-width: 1048px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding: 16px;
+  }
 `;
 
 export const Summary = styled.div`
@@ -45,7 +49,7 @@ export const Total = styled.div`
 
   strong {
     color: ${({ theme }) => theme.colors.darkBlue};
-    font-size: ${({ theme }) => theme.font.sizes.large};
+    font-size: ${({ theme }) => theme.font.sizes.extraLarge};
     font-weight: ${({ theme }) => theme.font.extraBold};
     margin-right: 15px;
   }

@@ -29,6 +29,7 @@ export const ColumnsContainer = styled.div`
 `;
 
 export const ColumnName = styled.p`
+  font-size: ${({ theme }) => theme.font.sizes.medium};
   font-weight: ${({ theme }) => theme.font.extraBold};
-  color: ${({ theme }) => theme.colors.darkBlue};
+  color: ${({ theme }) => theme.colors.neutralGray};
 `;

@@ -9,7 +9,7 @@ export const Container = styled.div`
 
   @media (max-width: 768px) {
     grid-template-areas: 'image productInfo productInfo' 'image quantity subtotal';
-    grid-template-columns: 91px 1fr;
+    grid-template-columns: 64px 1fr;
     gap: 16px;
   }
 `;
@@ -39,6 +39,10 @@ export const ImageContainer = styled.div`
 
   img {
     width: 100%;
+  }
+
+  @media (max-width: 768px) {
+    width: 64px;
   }
 `;
 
@@ -89,7 +93,7 @@ export const Subtotal = styled.div`
 
     button {
       position: absolute;
-      top: 13px;
+      top: 2px;
       right: 0;
     }
   }

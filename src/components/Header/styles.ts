@@ -56,11 +56,11 @@ export const ShoppingCartInfoText = styled.b`
   color: ${({ theme }) => theme.colors.white};
   font-size: ${({ theme }) => theme.font.sizes.medium};
   font-weight: ${({ theme }) => theme.font.semiBold};
+`;
 
-  & + b {
-    color: ${({ theme }) => theme.colors.neutralGray};
-    font-size: ${({ theme }) => theme.font.sizes.small};
-    font-weight: ${({ theme }) => theme.font.semiBold};
-    text-align: right;
-  }
+export const QuantityNumberShoppingCart = styled.span`
+  color: ${({ theme }) => theme.colors.neutralGray};
+  font-size: ${({ theme }) => theme.font.sizes.small};
+  font-weight: ${({ theme }) => theme.font.semiBold};
+  text-align: right;
 `;
