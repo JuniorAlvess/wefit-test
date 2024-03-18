@@ -23,8 +23,12 @@
 
 #### Home
 
-- A user can make an API request to fetch a list of movies that can be added to the cart.
-  Cart
+- The movies are displayed after making a request to the API.
+- Users can add the listed movies to the cart.
+- Users can see the total sum of items that have been added to the cart.
+
+#### Cart
+
 - Users can view the items added to the cart.
 - The total value is calculated based on each item added.
 - Users can remove items from the cart.
@@ -34,12 +38,6 @@
 
 - After confirming the order on the previous screen, the user is redirected to the order confirmed screen.
 - Here, the user also has the option to go back to the home screen.
-
-#### Features to be implemented
-
-- Convert JavaScript Code to TypeScript: Refactoring the existing JavaScript codebase to use TypeScript, which provides static typing and improved tooling for better code quality.
-- Save user registration data to database: Implementing front-end and back-end logic to securely store user registration data in a database.
-- Implementation of unit tests: Implement unit tests to verify the functionality of individual components, functions, or modules in the codebase.
 
 ## 🚀 How to run
 
